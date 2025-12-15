@@ -60,6 +60,20 @@ const projects = [
             'https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=500&fit=crop',
         ],
     },
+    {
+        id: 5,
+        title: 'Share Console - Lab Monitoring System',
+        role: 'Team Lead',
+        description: 'Real-time lab monitoring platform for teachers to view and manage 70+ student consoles simultaneously. Features live code viewing, real-time code editing, error detection, and student progress tracking. Helps teachers identify if students are coding independently or relying on AI, promoting genuine learning.',
+        tech: ['React.js', 'Node.js', 'Socket.io', 'WebRTC', 'MongoDB', 'Express.js'],
+        github: 'https://github.com/Sumit785-dot/share-console',
+        live: null,
+        images: [
+            'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=500&fit=crop',
+            'https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=500&fit=crop',
+            'https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=500&fit=crop',
+        ],
+    },
 ];
 
 const ImageGallery = ({ images, projectTitle }) => {
